@@ -1,0 +1,21 @@
+# ROS2/colcon build artifacts (regenerate with colcon build)
+build/
+install/
+log/
+
+# Cloned third-party repos (re-clone as needed)
+simulation_ws/src/turtlebot3/
+simulation_ws/src/turtlebot3_msgs/
+simulation_ws/src/turtlebot3_ros2/
+
+# Excluded workspaces
+notebook_ws/
+catkin_ws/
+.rviz/
+
+# Python
+__pycache__/
+*.pyc
+
+# macOS
+.DS_Store
