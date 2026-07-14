@@ -1,7 +1,8 @@
-# ros2-basics-python-real-robot
+
 
 ![ROS2 real robot demo](ros2_real_robot.gif)
 
+## How it works
 The program has three ROS 2 nodes work together: 
 - wall follower node – subscribes to /scan, calls the /find_wall service to align with a wall, then publishes velocity commands to /cmd_vel, and sends a goal to the /record_odom action
 - wall finder node – serves the /find_wall (FindWall.srv) request, using /scan to locate and align with the wall
